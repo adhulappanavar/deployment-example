@@ -4,6 +4,6 @@ data "terraform_remote_state" "networking-dev" {
   config {
     bucket  = "gcp-clearify-terraform"
     prefix  = "tf-demo/state/networking"
-    project = "gcp-foundation-shared-devops"
+    project = "internal-investment-206615"
   }
 }
